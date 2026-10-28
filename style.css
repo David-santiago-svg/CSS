@@ -1,0 +1,12 @@
+.Titulo {
+    color: darkblue;
+    text-align: center;
+}
+body {
+    font-family: sans-serif;
+    color: rebeccapurple;
+}
+nav {
+    color: lightgoldenrodyellow;
+    text-align: center;
+}
