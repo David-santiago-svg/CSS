@@ -1,12 +1,33 @@
-.Titulo {
-    color: darkblue;
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.Titulo{
+    color: blue;
     text-align: center;
 }
-body {
-    font-family: sans-serif;
-    color: rebeccapurple;
+
+header nav ul li a{
+    color: red;
+    text-decoration: none;
 }
-nav {
-    color: lightgoldenrodyellow;
-    text-align: center;
+
+.precio{
+    color: green;
+    font-weight: bold;
+}
+
+.btn-comprar{
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 15px;
 }
