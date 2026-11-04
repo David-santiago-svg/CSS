@@ -1,33 +1,56 @@
-body{
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
 }
 
-.Titulo{
-    color: blue;
-    text-align: center;
+.Titulo {
+  color: blue;
+  text-align: center;
 }
 
-header nav ul li a{
-    color: red;
-    text-decoration: none;
+header nav ul li a {
+  color: red;
+  text-decoration: none;
 }
 
-.precio{
-    color: green;
-    font-weight: bold;
+header {
+  background-image: url(tau\ css.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-.btn-comprar{
-    background-color: orange;
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 5px;
+main {
+  background-color: aqua;
 }
 
-footer{
-    background-color: black;
-    color: white;
-    padding: 15px;
+article {
+  padding: 20px;
+  margin: 15px;
+}
+
+aside {
+  background-color: indigo;
+}
+
+footer {
+  background-color: crimson;
+}
+
+.precio {
+  color: green;
+  font-weight: bold;
+}
+
+.btn-comprar {
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 15px;
 }
