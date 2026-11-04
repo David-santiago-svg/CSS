@@ -1,44 +1,70 @@
+:root {
+  --color: #4cdebe;
+  --fuente-principal: "Roboto", sans-serif;
+  --espaciado-pequeno: 8px;
+  --espaciado-mediano: 15px;
+  --espaciado-grande: 24px;
+}
+
 body {
-  background-color: #f0f0f0;
+  background-color: #312d2d;
   font-family: Arial, sans-serif;
 }
 
+head {
+  font: var(--fuente-principal);
+}
+
 .Titulo {
-  color: blue;
+  color: var(--color);
   text-align: center;
 }
 
-header nav ul li a {
-  color: red;
+nav ul li a {
+  color: var(--color);
   text-decoration: none;
+  font-size: medium;
+  padding: 10px 30px;
 }
 
 header {
   background-image: url(tau\ css.jpg);
   background-size: cover;
   background-position: center;
+  font-family: var(--fuente-principal);
+  font-size: larger;
+  padding: 20px 10px;
+  margin: 10px auto;
 }
 
 main {
-  background-color: aqua;
+  background-color: var(--color);
+  padding: 30px 1%;
+  font-size: large;
+  margin: 1px 1%;
 }
 
 article {
   padding: 20px;
   margin: 15px;
+  font-family: var(--fuente-principal) var(--espaciado-mediano)
 }
 
 aside {
-  background-color: indigo;
+  background-color: rgba(164, 51, 245, 0.575);
+  font-family: var(--fuente-principal);
+  padding: 5px;
 }
 
 footer {
   background-color: crimson;
+  font-family: var(--fuente-principal) var(--espaciado-pequeno)
 }
 
 .precio {
   color: green;
   font-weight: bold;
+  font-family: var(--fuente-principal) var(--espaciado-grande)
 }
 
 .btn-comprar {
@@ -47,6 +73,7 @@ footer {
   padding: 10px;
   text-decoration: none;
   border-radius: 5px;
+  font-family: var(--fuente-principal) var(--espaciado-grande)
 }
 
 footer {
