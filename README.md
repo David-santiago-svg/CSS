@@ -11,14 +11,12 @@ Las diferencias practicas entre padding y margin son:
 ¿Cómo se ven afectados los elementos hermanos cuando le aplicas un margen grande a uno de ellos?:
 *Afecta directamente a sus elementos hermanos empujándolos y desplazándolos para reclamar su espacio, ya que el margen actúa como una "barrera invisible" por fuera del borde.
 
-“Hallazgos: Centralización de Identidad Visual y Espaciado”
-La lista completa de variables declaradas (colores y espaciados):
-*--color
-*--fuente-principal
-*--espaciado-pequeno
-*--espaciado-mediano
-*--espaciado-grande
-La ventaja de reutilizar medidas de margen y relleno en lugar de inventar valores en cada selector:
-*La principal ventaja de reutilizar medidas de margen (margin) y relleno (padding) en lugar de inventar valores en cada selector es la consistencia visual y la mantenibilidad del diseño (escalabilidad).
-De qué manera la centralización en :root previene colisiones visuales a medida que la hoja de estilos crece.
-*previene colisiones visuales a medida que una hoja de estilos crece principalmente porque establece una "fuente única de verdad" global y elimina la dispersión de valores mágicos (magic numbers) en el código.
+Pseudoclase y Pseudo elemento:
+*La pseudoclase permite aplicar estilos cuando un elemento ya se encuentra en un estado determinado
+*El pseudo elemento crea contenido (estetico) a la pagina web sin modificar el archibo html
+
+Importancia del focus:
+*focus es lo que permite al usuario usar tabulador en el navegador para moverse entre los enlaces y botones de la pagina
+
+Preferencia de uso con ::before y ::after
+*Esos Pseudo elementos añaden sin alterar las funciones o añadir alguna acción extra al codigo de html permitiendo organizar y mantener el codigo mas organizado para su creación.
