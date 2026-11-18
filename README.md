@@ -20,3 +20,13 @@ Importancia del focus:
 
 Preferencia de uso con ::before y ::after
 *Esos Pseudo elementos añaden sin alterar las funciones o añadir alguna acción extra al codigo de html permitiendo organizar y mantener el codigo mas organizado para su creación.
+
+¿Qué significa la sigla BEM?:
+Bloque/Elemento/Modificador
+Block/Element/Modifier
+
+¿Por qué dividir el CSS en varios archivos facilita el trabajo colaborativo?:
+Por que al dividir entre carpetas los codigos, aparados y estructuras se facilita la gestión y asignación de trabajos al momento de comenzar con el desarrollo de una pagina web en equipo.
+
+¿Cómo esta metodología evita la guerra de especificidad (Cascada) al mantener un peso plano?:
+Al er una metodología que separa de forma ordenada los comandos respectivos de cada función en el diseño de la pagina , no colisionan entre sí a la hora de ser leidos (al estar cada codigo en un archivo independiente iportado al achivo css "central" no se genera la especifidad cascada al no estar en una misma columna/fila/archivo).

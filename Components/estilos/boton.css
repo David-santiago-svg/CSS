@@ -1,4 +1,4 @@
-.btn-comprar__activo {
+.btn-comprar__activo--color {
   background-color: var(--color-boton);
   color: var(--color-texto-claro);
   padding: var(--espaciado-pequeno);
@@ -8,7 +8,7 @@
   transition: 0.3s;
 }
 
-.btn-comprar__activo:hover {
+.btn-comprar__activo--color:hover {
   background-color: var(--color-boton-hover);
   transform: scale(1.1);
 }
