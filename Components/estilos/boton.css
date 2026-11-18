@@ -1,0 +1,14 @@
+.btn-comprar__activo {
+  background-color: var(--color-boton);
+  color: var(--color-texto-claro);
+  padding: var(--espaciado-pequeno);
+  text-decoration: none;
+  border-radius: var(--radio-boton);
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.btn-comprar__activo:hover {
+  background-color: var(--color-boton-hover);
+  transform: scale(1.1);
+}

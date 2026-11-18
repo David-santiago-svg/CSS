@@ -1,0 +1,5 @@
+.precio__color {
+  color: var(--color-precio);
+  font-weight: bold;
+  font-size: 1.2em;
+}

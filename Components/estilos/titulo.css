@@ -1,0 +1,10 @@
+.card__titulo {
+  color: var(--color-titulo);
+  text-align: center;
+  transition: 0.5s;
+}
+
+.card__titulo:hover {
+  color: var(--color-titulo-hover);
+  transform: scale(1.05);
+}
