@@ -2,76 +2,149 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Actividad 3.1 Continuación</title>
-  <link rel="stylesheet" href="Components/estilos/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 3.1 Continuación</title>
+    <link rel="stylesheet" href="Components/estilos/style.css">
 </head>
 
 <body>
-  <header>
-    <h1 class="card__titulo">Actividad 3.1 Continuación</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Catálogo</a></li>
-        <li><a href="#">Ofertas</a></li>
-        <li><a href="#">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <div class="contenedor-layout">
-    <main>
-      <section>
-        <article>
-          <h2>Figura warframe</h2>
-          <p>Figura coleccionable edición especial de alta durabilidad y detalles exclusivos.</p>
-          <p class="precio__color">$45.000 COP</p>
-          <a href="#" class="btn-comprar__activo--color" id="btn-destacado">Comprar</a>
-        </article>
+    <div class="app-layout">
 
-        <article>
-          <h2>Poster de madness combat</h2>
-          <p>Diseño tradicional enfocado en comodidad y estilo minimalista.</p>
-          <p class="precio__color">$30.000 COP</p>
-          <a href="#" class="btn-comprar__activo--color">Comprar</a>
-        </article>
+        <header class="header">
 
-        <article>
-          <h2>Lampara de lava LED</h2>
-          <p>Modelo con iluminación RGB integrada y acabados de alta gama.</p>
-          <p class="precio__color">$75.000 COP</p>
-          <a href="#" class="btn-comprar__activo--color">Comprar</a>
-        </article>
+            <h1 class="card__titulo">Actividad 3.1 Continuación</h1>
 
-        <article>
-          <h2>llavero de warframe Colección</h2>
-          <p>Versión compacta ideal para escritorios y espacios de trabajo.</p>
-          <p class="precio__color">$20.000 COP</p>
-          <a href="#" class="btn-comprar__activo--color">Comprar</a>
-        </article>
-      </section>
-    </main>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Catálogo</a></li>
+                    <li><a href="#">Ofertas</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
 
-    <aside>
-      <h2>Filtros</h2>
-      <ul>
-        <li><a href="#">Ediciones Especiales</a></li>
-        <li><a href="#">Más Vendidos</a></li>
-        <li><a href="#">Ofertas Flash</a></li>
-      </ul>
-    </aside>
-  </div>
+        </header>
 
-  <footer>
-    <p>&copy; 2026 ADSO - Todos los derechos reservados.</p>
-    <ul>
-      <li><a href="#">Instagram</a></li>
-      <li><a href="#">Facebook</a></li>
-      <li><a href="#">Twitter</a></li>
-    </ul>
-  </footer>
+        <div class="main-wrapper">
+
+            <main>
+
+                <section>
+
+                    <article class="card">
+
+                        <div class="card__body">
+                            <h2>Figura Warframe</h2>
+                            <p>
+                                Figura coleccionable edición especial de alta
+                                durabilidad y detalles exclusivos.
+                            </p>
+                        </div>
+
+                        <div class="card__price-wrapper">
+                            <p class="precio__color">$45.000 COP</p>
+                        </div>
+
+                        <a href="#" class="btn-comprar__activo--color card__button">
+                            Comprar
+                        </a>
+
+                    </article>
+
+                    <article class="card">
+
+                        <div class="card__body">
+                            <h2>Poster de Madness Combat</h2>
+                            <p>
+                                Diseño tradicional enfocado en comodidad y estilo
+                                minimalista.
+                            </p>
+                        </div>
+
+                        <div class="card__price-wrapper">
+                            <p class="precio__color">$30.000 COP</p>
+                        </div>
+
+                        <a href="#" class="btn-comprar__activo--color card__button">
+                            Comprar
+                        </a>
+
+                    </article>
+
+                    <article class="card">
+
+                        <div class="card__body">
+                            <h2>Lampara de lava LED</h2>
+                            <p>
+                                Modelo con iluminación RGB integrada y acabados
+                                de alta gama.
+                            </p>
+                        </div>
+
+                        <div class="card__price-wrapper">
+                            <p class="precio__color">$75.000 COP</p>
+                        </div>
+
+                        <a href="#" class="btn-comprar__activo--color card__button">
+                            Comprar
+                        </a>
+
+                    </article>
+
+                    <article class="card">
+
+                        <div class="card__body">
+                            <h2>Llavero de Warframe Colección</h2>
+                            <p>
+                                Versión compacta ideal para escritorios y espacios
+                                de trabajo.
+                            </p>
+                        </div>
+
+                        <div class="card__price-wrapper">
+                            <p class="precio__color">$20.000 COP</p>
+                        </div>
+
+                        <a href="#" class="btn-comprar__activo--color card__button">
+                            Comprar
+                        </a>
+
+                    </article>
+
+                </section>
+
+            </main>
+
+            <aside class="aside">
+
+                <h2>Filtros</h2>
+
+                <ul>
+                    <li><a href="#">Ediciones Especiales</a></li>
+                    <li><a href="#">Más Vendidos</a></li>
+                    <li><a href="#">Ofertas Flash</a></li>
+                </ul>
+
+            </aside>
+
+        </div>
+
+        <footer class="footer">
+
+            <p>&copy; 2026 ADSO - Todos los derechos reservados.</p>
+
+            <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+
+        </footer>
+
+    </div>
+
 </body>
 
 </html>

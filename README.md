@@ -30,3 +30,12 @@ Por que al dividir entre carpetas los codigos, aparados y estructuras se facilit
 
 ¿Cómo esta metodología evita la guerra de especificidad (Cascada) al mantener un peso plano?:
 Al er una metodología que separa de forma ordenada los comandos respectivos de cada función en el diseño de la pagina , no colisionan entre sí a la hora de ser leidos (al estar cada codigo en un archivo independiente iportado al achivo css "central" no se genera la especifidad cascada al no estar en una misma columna/fila/archivo).
+
+(1) Por qué fue crucial aplicar min-height: 100vh y flex-direction: column al contenedor global para controlar el pie de página
+Fue fundamental porque min-height: 100vh obliga al contenedor principal (.app-layout) a ocupar como mínimo el 100% de la altura visible de la ventana del navegador. Por su parte, flex-direction: column organiza los elementos (header, contenido principal y footer) de forma vertical.
+
+(2) ¿Cómo la propiedad gap reemplazó el uso excesivo de márgenes laterales en los menús de navegación?
+La propiedad gap permitió controlar la separación entre los elementos del menú de forma centralizada y más limpia. Antes era necesario utilizar márgenes individuales (margin-left o margin-right) en cada elemento de la lista, lo que hacía el código más difícil de mantener.
+
+(3) Cómo la unión de BEM, Custom Properties y Flexbox te permitió crear una tarjeta de producto resistente a diferentes longitudes de texto.
+La metodología BEM ayudó a organizar los componentes mediante clases semánticas como .card, .card__body, .card__price-wrapper y card__button, facilitando la comprensión y mantenimiento del código.
